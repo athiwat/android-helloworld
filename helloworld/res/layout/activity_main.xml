@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    <Button android:id="@+id/foo"
+            android:text="@string/foo"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/stations" />
+    <Button android:id="@+id/bar"
+            android:text="@string/bar"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ListView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:entries="@array/stations" android:id="@+id/listview"/>
+    <Button android:id="@+id/foobar" android:text="@string/foobar"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>
