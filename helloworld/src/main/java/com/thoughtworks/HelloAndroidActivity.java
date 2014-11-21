@@ -53,7 +53,7 @@ public class HelloAndroidActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(HelloAndroidActivity.this, NewActivity.class);
+                Intent intent = new Intent(HelloAndroidActivity.this, NetworkActivity.class);
                 intent.putExtra("Key","Value");
                 startActivity(intent);
             }
